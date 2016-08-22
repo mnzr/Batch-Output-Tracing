@@ -1,3 +1,4 @@
+// Example 1
 #include <stdio.h>
 int main() {
     int i, j, n[3][3] = {2,4,3,6,8,5,3,5,1};
@@ -7,6 +8,7 @@ int main() {
     return 0;
 }
 -----
+// Example 2
 #include <stdio.h>
 int main() {
     char str[]="AIUB";
@@ -16,6 +18,7 @@ int main() {
     return 0;
 }
 -----
+// Example 3
 #include <stdio.h>
 void f(int *x, int y) {
     int i;
@@ -38,6 +41,7 @@ int main(void) {
     return 0;
 }
 -----
+// Example 4
 #include <stdio.h>
 int main() {
     int arr[]={10,20,30,45,67,56,74};
@@ -48,6 +52,7 @@ int main() {
     return 0;
 }
 -----
+// Example 5
 #include <stdio.h>
 void change(int *a, int sz, int inc) {
     int i;
@@ -64,6 +69,7 @@ int main() {
     return 0;
 }
 -----
+// Example 6
 #include <stdio.h>
 struct life {
     int num;
@@ -82,6 +88,7 @@ int main() {
     return 0;
 }
 -----
+// Example 7
 #include <stdio.h>
 void f(int *x, int y) {
     int i;
@@ -103,6 +110,7 @@ int main() {
     return 0;
 }
 -----
+// Example 8
 #include <stdio.h>
 int main() {
     int arr[]={10,20,30,45,67,56,74};
@@ -113,6 +121,7 @@ int main() {
     return 0;
 }
 -----
+// Example 9
 #include <stdio.h>
 void change(int *a, int sz, int inc) {
     int i;
@@ -128,6 +137,7 @@ int main() {
     return 0;
 }
 -----
+// Example 10
 #include <stdio.h>
 struct x {
     int a;
@@ -150,6 +160,7 @@ void function(struct x * pz) {
     pz->a++;
 }
 -----
+// Example 11
 #include <stdio.h>
 void Op ( int *i) {
     *i=*i+1;
@@ -168,6 +179,7 @@ int main() {
     return 0;
 }
 -----
+// Example 12
 #include <stdio.h>
 char* checkNumber(int num) {
     int i=0;
